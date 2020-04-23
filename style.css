@@ -3,7 +3,7 @@
 }
 
 .jumbotron {
-    background-image: url(Portfolio-CJ/carmenjohnson512.github.io/assets/wickerchairHeadshot.jpg);
+    background-image: url("carmenjohnson512.github.io/assets/wickerchairHeadshot.jpg");
     text-align: center;
     color: white;
 }
