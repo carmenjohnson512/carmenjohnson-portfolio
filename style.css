@@ -1,3 +1,9 @@
 #navbarNavDropdown {
     justify-content: flex-end;
 }
+
+.jumbotron {
+    background-image: url(Portfolio-CJ/carmenjohnson512.github.io/assets/wickerchairHeadshot.jpg);
+    text-align: center;
+    color: white;
+}
