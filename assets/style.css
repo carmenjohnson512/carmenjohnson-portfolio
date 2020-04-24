@@ -7,8 +7,8 @@ body {
     justify-content: flex-end;
 }
 
-.jumbotron .jumbotron-fluid {
-    background-image: url("carmenjohnson512.github.io/assets/wickerchairHeadshot.jpg");
+.hero {
+    background-image: url("wickerchairHeadshot.jpg");
     text-align: center;
     color: white;
     height: 500px;
@@ -17,5 +17,9 @@ body {
 .details {
     background-color: black;
     color: white;
+
+}
+
+.button {
 
 }
