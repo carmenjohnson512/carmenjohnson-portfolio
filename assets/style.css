@@ -8,7 +8,7 @@ body {
 }
 
 .hero {
-    background-image: url("wickerchairHeadshot.jpg");
+    background-image: url("assets/wickerchairHeadshot.jpg");
     text-align: center;
     color: white;
     height: 500px;
