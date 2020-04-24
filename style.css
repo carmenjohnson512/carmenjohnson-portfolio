@@ -1,3 +1,9 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
 #navbarNavDropdown {
     justify-content: flex-end;
 }
