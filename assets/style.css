@@ -2,24 +2,30 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+p {
+    font-size: 24px;
+}
 
 #navbarNavDropdown {
     justify-content: flex-end;
 }
 
 .hero {
-    background-image: url("assets/wickerchairHeadshot.jpg");
+    background-image: url("seatedDotsProfileRight.jpg");
     text-align: center;
-    color: white;
+    color: black;
     height: 500px;
+}
+
+.button {
+    display: flex;
+    align-self: flex-end;
+
 }
 
 .details {
     background-color: black;
     color: white;
-
+    text-align: center;
 }
 
-.button {
-
-}
