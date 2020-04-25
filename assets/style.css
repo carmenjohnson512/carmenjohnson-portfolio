@@ -48,6 +48,10 @@ body {
   .text-muted-hero {
       color: white;
   }
+
+  .card-img-top {
+      background-color: #55595c;
+  }
   
   footer {
     padding-top: 3rem;
