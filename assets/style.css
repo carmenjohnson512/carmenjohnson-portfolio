@@ -51,6 +51,7 @@ body {
 
   .card-img-top {
       background-color: #55595c;
+      max-height: 232px;
   }
   
   footer {
