@@ -232,6 +232,11 @@ h6 {
   background-color: mediumpurple;
 }
 
+.img-fluid {
+max-width: 
+
+}
+
 .portfolio-item {
   display: block;
   position: relative;
