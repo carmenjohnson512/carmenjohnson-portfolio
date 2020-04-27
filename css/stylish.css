@@ -232,17 +232,12 @@ h6 {
   background-color: mediumpurple;
 }
 
-.img-fluid {
-max-width: 
-
-}
-
 .portfolio-item {
   display: block;
   position: relative;
   overflow: hidden;
   max-width: 530px;
-  margin: auto auto 1rem;
+  margin: 10px;
 }
 
 .portfolio-item .caption {
@@ -373,4 +368,9 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #1D809F !important;
+}
+
+.img-fluid {
+  height: 336px;
+  width: 465px;
 }
