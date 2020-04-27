@@ -41,6 +41,10 @@ h6 {
   font-weight: 700;
 }
 
+.header-name-sub {
+  margin-bottom: 5px;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -93,26 +97,49 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: url("img/seatedDotsProfileRight.jpg"), indigo;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead h1 {
-  font-size: 4rem;
+.header-name-h1 {
+  font-size: 24px;
   margin: 0;
-  padding: 0;
+  padding-top: 20vh;
 }
 
 @media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
+  .header-name-h1 {
+    height: 40vh;
   }
-  .masthead h1 {
+  .header-name-h1 {
     font-size: 5.5rem;
   }
 }
+
+.header-name-sub {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .header-name-h1 {
+    height: 30px;
+    padding: 0;
+  }
+  .header-name-h1 {
+    font-size: 48px;
+  }
+
+  .header-name-sub {
+    padding-top: 30px;
+  }
+
+  .container {
+    padding-top: 55px;
+  }
+}
+
 
 /* Side Menu */
 #sidebar-wrapper {
