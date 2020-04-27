@@ -41,10 +41,6 @@ h6 {
   font-weight: 700;
 }
 
-.header-name-sub {
-  margin-bottom: 5px;
-}
-
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -106,12 +102,13 @@ h6 {
 .header-name-h1 {
   font-size: 24px;
   margin: 0;
-  padding-top: 20vh;
+  padding-top: 30vh;
+  color: white;
 }
 
 @media (min-width: 992px) {
   .header-name-h1 {
-    height: 40vh;
+    height: 44vh;
   }
   .header-name-h1 {
     font-size: 5.5rem;
@@ -119,7 +116,9 @@ h6 {
 }
 
 .header-name-sub {
+  margin-top: 20px;
   margin-bottom: 32px;
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -253,6 +252,12 @@ h6 {
   max-width: 30rem;
 }
 
+.content-section {
+  background-color: mediumpurple;
+}
+
+
+/* Portfolio */
 .portfolio-item {
   display: block;
   position: relative;
