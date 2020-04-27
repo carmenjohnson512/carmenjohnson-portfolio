@@ -226,12 +226,12 @@ h6 {
   max-width: 30rem;
 }
 
+
+/* Portfolio */
 .content-section {
   background-color: mediumpurple;
 }
 
-
-/* Portfolio */
 .portfolio-item {
   display: block;
   position: relative;
