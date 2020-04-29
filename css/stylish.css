@@ -238,8 +238,15 @@ h6 {
   overflow: hidden;
   max-width: 530px;
   margin: 10px;
+  background: url("seatedDotsProfileRight.jpg"), indigo;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.pic1 {
+
+}
 .portfolio-item .caption {
   display: flex;
   height: 100%;
@@ -370,7 +377,3 @@ a:hover, a:focus, a:active {
   color: #1D809F !important;
 }
 
-.img-fluid {
-  height: 336px;
-  width: 465px;
-}
