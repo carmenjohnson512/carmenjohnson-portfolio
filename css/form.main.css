@@ -276,12 +276,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(93,84,240,0.5);
-  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  pointer-events: none;
+  background-color: default;
 }
 
 .contact100-map {
@@ -295,7 +290,7 @@ iframe {
 
 .wrap-contact100 {
   width: 800px;
-  background: #fff;
+  background: #155d74;
   border-radius: 10px;
   overflow: hidden;
   padding: 72px 150px 25px 150px;
@@ -313,15 +308,16 @@ iframe {
 
 .contact100-form {
   width: 100%;
+  font-family: SourceSansPro-Bold, sans-serif;
 }
 
 .contact100-form-title {
   display: block;
   font-family: SourceSansPro-Bold, sans-serif;
   font-size: 30px;
-  color: #333333;
+  color: #ffffff;
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   padding-bottom: 34px;
 }
 
@@ -332,7 +328,7 @@ iframe {
   width: 100%;
   position: relative;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 5px;
   margin-bottom: 30px;
 }
 
@@ -340,7 +336,7 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-family: SourceSansPro-Bold, sans serif;
+  font-family: SourceSansPro-Bold, sans-serif;
   font-size: 16px;
   color: #4b2354;
   line-height: 1.2;
@@ -370,7 +366,7 @@ textarea.input100 {
   top: 0;
   left: 0;
   pointer-events: none;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
@@ -416,10 +412,9 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 160px;
   height: 42px;
-  background-color: #bd59d4;
-  border-radius: 21px;
-
-  font-family: SourceSansPro-Regular;
+  background-color: indigo;
+  border-radius: 5px;;
+  font-family: SourceSansPro-Regular, sans-serif;
   font-size: 14px;
   color: #fff;
   line-height: 1.2;
@@ -490,7 +485,7 @@ textarea.input100 {
   width: 100%;
   min-height: 62px;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 5px;
   top: 0px;
   left: 0px;
   padding: 0 45px 0 22px;
@@ -567,5 +562,90 @@ textarea.input100 {
 }
 
 .contact100-more-highlight {
-  color: #bd59d4;
+  color: indigo;
+}
+
+/* footer elements */
+footer.footer {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: indigo;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
+.text-white .rounded-circle .mb-5 {
+  color: white;
+}
+
+.list-inline {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #1D809F;
+}
+
+a:hover, a:focus, a:active {
+  color: #155d74;
+}
+
+.btn-primary {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #155d74 !important;
+  border-color: #155d74 !important;
+}
+
+.btn-secondary {
+  background-color: #ecb807 !important;
+  border-color: #ecb807 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #ba9106 !important;
+  border-color: #ba9106 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #1D809F !important;
+}
+
+.text-primary {
+  color: #1D809F !important;
+}
+
+.text-secondary {
+  color: #1D809F !important;
 }
