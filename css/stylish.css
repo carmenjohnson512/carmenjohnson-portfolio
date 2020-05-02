@@ -112,10 +112,7 @@ h6 {
   .header-name-h1 {
     height: 100%;
     padding: 0;
-  }
-  /* .header-name-h1 {
-    /* font-size: 48px; */
-  } */
+  }  
   
   .container {
     padding-top: 45px;
@@ -244,7 +241,7 @@ h6 {
   max-width: 100%;
   max-height: 100%;
   margin: 10px;
-  background: url("seatedDotsProfileRight.jpg"), indigo;
+  background: url("css/seatedDotsProfileRight.jpg"), indigo;
   /* background-position: center center; */
   background-position: center;
   background-repeat: no-repeat;
@@ -254,7 +251,7 @@ h6 {
 
 .portfolio-item .caption {
   display: flex;
-  height: auto;
+  height: 100%;
   width: 100%;
   background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
@@ -280,6 +277,7 @@ h6 {
 
 @media (min-width: 992px) {
   .portfolio-item {
+    position: relative;
     max-width: 100%;
     margin: 0;
   }
