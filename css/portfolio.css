@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn-xl {
@@ -80,42 +80,45 @@ h6 {
   }
   
   .header-name-h1 {
-    font-size: 24px;
-    margin: 0;
+    font-size: 60px;
+    margin-bottom: 10px;
     padding-top: 30vh;
     color: white;
   }
   
-  @media (min-width: 992px) {
+  /* @media (min-width: 992px) {
     .header-name-h1 {
       height: 44vh;
     }
     .header-name-h1 {
       font-size: 5.5rem;
     }
-  }
+  } */
   
-  .header-name-sub {
-    margin-top: 20px;
-    margin-bottom: 32px;
+  /* .header-name-sub {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 10px;
     color: white;
-  }
+  } */
   
   @media (max-width: 768px) {
     .header-name-h1 {
-      height: 30px;
+      height: 100%;
       padding: 0;
     }
-    .header-name-h1 {
+    /* .header-name-h1 {
       font-size: 48px;
-    }
-  
-    .header-name-sub {
-      padding-top: 30px;
-    }
+    } */
   
     .container {
-      padding-top: 55px;
+      padding-top: 45px;
+      text-align: center;
+    }
+  
+    .no-gutters {
+      display: block;
+      text-align: center;
     }
   }
   

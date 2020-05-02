@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn-xl {
@@ -86,47 +86,50 @@ h6 {
 }
 
 .header-name-h1 {
-  font-size: 24px;
-  margin: 0;
+  font-size: 60px;
+  margin-bottom: 10px;
   padding-top: 30vh;
   color: white;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .header-name-h1 {
     height: 44vh;
   }
   .header-name-h1 {
     font-size: 5.5rem;
   }
-}
+} */
 
 .header-name-sub {
-  margin-top: 20px;
-  margin-bottom: 32px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-top: 10px;
   color: white;
 }
 
 @media (max-width: 768px) {
   .header-name-h1 {
-    height: 30px;
+    height: 100%;
     padding: 0;
   }
-  .header-name-h1 {
-    font-size: 48px;
-  }
-
-  .header-name-sub {
-    padding-top: 30px;
-  }
-
+  /* .header-name-h1 {
+    /* font-size: 48px; */
+  } */
+  
   .container {
-    padding-top: 55px;
+    padding-top: 45px;
+    text-align: center;
+  }
+
+  .no-gutters {
+    display: block;
+    text-align: center;
   }
 }
 
 
-/* Side Menu */
+/* Drop-down Side Menu */
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
@@ -237,20 +240,21 @@ h6 {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
+  /* max-width: 530px; */
+  max-width: 100%;
+  max-height: 100%;
   margin: 10px;
   background: url("seatedDotsProfileRight.jpg"), indigo;
-  background-position: center center;
+  /* background-position: center center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: 100%; */
 }
 
-.pic1 {
-
-}
 .portfolio-item .caption {
   display: flex;
-  height: 100%;
+  height: auto;
   width: 100%;
   background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
@@ -276,7 +280,7 @@ h6 {
 
 @media (min-width: 992px) {
   .portfolio-item {
-    max-width: none;
+    max-width: 100%;
     margin: 0;
   }
   .portfolio-item .caption {
@@ -317,7 +321,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: mediumpurple;
+  background-color: indigo;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
