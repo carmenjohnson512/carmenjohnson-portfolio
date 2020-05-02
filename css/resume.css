@@ -256,6 +256,14 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: max-content;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 75vh;
@@ -270,6 +278,18 @@ section.resume-section .resume-item .resume-date {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
+}
+
+
+
+.resume-item {
+  margin-bottom: 3rem;
+}
+
+#interests {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  min-height: 50vh;
 }
 
 .bg-primary {
