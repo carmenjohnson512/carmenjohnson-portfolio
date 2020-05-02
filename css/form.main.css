@@ -15,10 +15,6 @@
   src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf'); 
 }
 
-@font-face {
-  font-family: JosefinSans-Bold;
-  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
-}
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -36,7 +32,7 @@ body, html {
 
 /*---------------------------------------------*/
 a {
-	font-family: SourceSansPro-Regular;
+	font-family: SourceSansPro-Regular, sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -61,7 +57,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: SourceSansPro-Regular;
+	font-family: SourceSansPro-Regular, sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -193,7 +189,7 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: SourceSansPro-Bold;
+  font-family: SourceSansPro-Bold, sans-serif;
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
@@ -216,7 +212,7 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-family: SourceSansPro-Bold;
+  font-family: SourceSansPro-Bold, sans serif;
   font-size: 16px;
   color: #4b2354;
   line-height: 1.2;
@@ -295,7 +291,7 @@ textarea.input100 {
   background-color: #bd59d4;
   border-radius: 21px;
 
-  font-family: JosefinSans-Bold;
+  font-family: SourceSansPro-Regular;
   font-size: 14px;
   color: #fff;
   line-height: 1.2;
