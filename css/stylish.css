@@ -309,8 +309,12 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
 }
 
 footer.footer .social-link {
@@ -327,6 +331,10 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
+}
+
+.list-inline {
+  margin-bottom: 1rem;
 }
 
 a {
