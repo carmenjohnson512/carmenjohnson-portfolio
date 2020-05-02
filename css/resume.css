@@ -281,7 +281,30 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+footer.footer {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
 
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: indigo;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
 
 .resume-item {
   margin-bottom: 3rem;

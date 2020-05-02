@@ -241,7 +241,7 @@ h6 {
   max-width: 100%;
   max-height: 100%;
   margin: 10px;
-  background: url("css/seatedDotsProfileRight.jpg"), indigo;
+  /* background: url("css/seatedDotsProfileRight.jpg"), indigo; */
   /* background-position: center center; */
   background-position: center;
   background-repeat: no-repeat;
