@@ -2,7 +2,7 @@
 
 #### [carmenjohnson512@gmail.com] (https://www.linkedin.com/in/carmenjohnson512/)
 
-![] (css/seatedDotsProfileRight.jpg)
+![Seated Right Profile Pic] (carmenjohnson512.github.io/css/seatedDotsProfileRight.jpg)
 
 Hey y'all, I'm Carmen!
 
