@@ -86,30 +86,11 @@ h6 {
     color: white;
   }
   
-  /* @media (min-width: 992px) {
-    .header-name-h1 {
-      height: 44vh;
-    }
-    .header-name-h1 {
-      font-size: 5.5rem;
-    }
-  } */
-  
-  /* .header-name-sub {
-    margin-top: 15px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    color: white;
-  } */
-  
   @media (max-width: 768px) {
     .header-name-h1 {
       height: 100%;
       padding: 0;
     }
-    /* .header-name-h1 {
-      font-size: 48px;
-    } */
   
     .container {
       padding-top: 45px;
@@ -213,15 +194,25 @@ h6 {
     background-color: indigo;
   }
   
-  .portfolio-item {
+  /* .portfolio-item {
     display: block;
     position: relative;
     overflow: hidden;
     max-width: 100%;
     max-height: 100%;
     margin: 10px;
-    /* background: url("seatedDotsProfileRight.jpg"), indigo; */
-    /* background-position: center center; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100%; */
+  /* } */ */
+  .portfolio-pic {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 555px;
+    max-height: 431px;
+    margin: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
