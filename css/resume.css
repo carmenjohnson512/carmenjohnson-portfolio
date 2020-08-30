@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Source Sans Pro';
   /* padding-top: 54px; */
@@ -103,10 +97,21 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+  color: #343a40;
 }
 
 .dev-icons .list-inline-item i:hover {
   color: #1D809F;
+}
+
+.icon {
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+.nosql-icon {
+  max-width: 4rem;
+    max-height: 4rem;
 }
 
 /* Main Dropdown Navigation */
